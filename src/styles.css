@@ -10923,13 +10923,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 * @copyright Copyright (c) 2015 - 2018 IcoFont 
 * @license - https://icofont.com/license/
 */
-/* @font-face {
+@font-face {
   font-family: IcoFont;
   font-weight: 400;
   font-style: Regular;
-  src: url(icofont.9c33516aab48c61e3081.woff2) format("woff2"),
-    url(icofont.dad3accba068281878f1.woff) format("woff");
-} */
+  /* src: url(icofont.9c33516aab48c61e3081.woff2) format("woff2"),
+    url(icofont.dad3accba068281878f1.woff) format("woff"); */
+  src: url("./assets/fonts/icofont.woff2") format("woff2"),
+  url("./assets/fonts/icofont.woff") format("woff");
+}
 [class*=" icofont-"],
 [class^="icofont-"] {
   font-family: IcoFont !important;
